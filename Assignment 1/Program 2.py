@@ -1,4 +1,4 @@
-#Circumference circle (with rounding)
+#Circle's circumference (with rounding)
 import math
 from decimal import Decimal, ROUND_HALF_UP
 radius = float(input("Enter the radius of the circle: "))
