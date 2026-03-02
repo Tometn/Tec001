@@ -4,13 +4,13 @@
 import string
 
 def Number_summer(sentence):
-    words_split = sentence.split()
     list_of_numbers = []
-    for index, character in enumerate(words_split):
+    temp_digit_list = []
+    for index, character in enumerate(sentence):
         if character in string.digits:
             temp_digit_list.append(character)
             try:    
-                if words_split[index + 1] in string.digits:
+                if sentence[index + 1] in string.digits:
                     continue
                 else:
                     list_of_numbers.append(int("".join(temp_digit_list)))
