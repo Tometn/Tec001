@@ -1,0 +1,8 @@
+This contains numbers 11, 2 and 2025
+This contains no numbers
+This line has a          lot           of             blank                                    space
+Thislinehasnospaceatall
+Thislinealsohasnospacebutithasthenumbers5and19
+56 This line starts with a number
+%^& This line starts with symbols
+    This line starts with blank spaces

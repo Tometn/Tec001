@@ -1,8 +1,6 @@
 import re
 
-hand = open('mbox-short.txt')
-for line in hand:
-    line = line.rstrip()
-    if re.search(r'^From (\S+.@\S+)', line):
-        mail = str(re.findall(r'^From (\S+@\S+)', line))
-        print(mail)
+text_wall = open('some_strings.txt')
+for line in text_wall:
+    re.sub(r'\d{10}|\+084\d+ |\+084 \d+', "[REDACTED]", text_wall)
+print(text_wall)

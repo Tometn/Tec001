@@ -1,0 +1,18 @@
+num_list = []
+while True:    
+    try:    
+        
+        user_input = input(">>>")
+        if user_input.lower() == "done":
+            break
+        else:
+            user_input = int(user_input)
+            num_list.append(user_input)
+        
+    except Exception as e:
+        
+        print("Error: ", e)
+if num_list == []:
+    print("There are no numbers in the list")
+else:
+    print("Max: ", max(num_list), "\nMin: ", min(num_list), "\nAverage: ", sum(num_list) / len(num_list))
