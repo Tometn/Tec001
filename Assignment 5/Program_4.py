@@ -7,6 +7,8 @@ def sum_int(int_list):
 
     return sum(int_list)
 
+#Test program
+
 Test_list = [1, 2, 3.0, 4]
 
 print(sum_int(Test_list))
